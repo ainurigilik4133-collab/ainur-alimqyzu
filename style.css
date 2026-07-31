@@ -91,6 +91,23 @@ section h2{
     color:#1e88e5;
 }
 
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
 .card:hover{
     transform:translateY(-10px);
 }
@@ -107,3 +124,7 @@ footer{
 }
 
 @media(max-width:768px)
+
+nav{
+    margin-top: 15px;
+}
