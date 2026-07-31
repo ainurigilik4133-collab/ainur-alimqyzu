@@ -67,6 +67,10 @@ button{
     cursor:pointer;
     font-size:18px;
     transition:.3s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover{
@@ -136,12 +140,6 @@ h1{
 }
 .hero-text p{
     text-align: center;
-}
-button{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .hero-image{
     text-align: center;
