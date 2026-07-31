@@ -138,5 +138,8 @@ h1{
     text-align: center;
 }
 div button{
-    align-items: center;
+    text-align: center;
+}
+.hero-image{
+    text-align: center;
 }
