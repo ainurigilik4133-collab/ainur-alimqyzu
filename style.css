@@ -75,6 +75,7 @@ button{
 button:hover{
     background:#f57c00;
     transform:scale(1.05);
+    text-align: center;
 }
 
 .hero-image img{
