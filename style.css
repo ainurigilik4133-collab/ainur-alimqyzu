@@ -131,3 +131,12 @@ nav{
 .oppo{
     text-align: center;
 }
+h1{
+    text-align: center;
+}
+.hero-text p{
+    text-align: center;
+}
+.hero-text button{
+    align-items: center;
+}
