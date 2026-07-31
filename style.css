@@ -58,7 +58,7 @@ nav a:hover{
     margin-bottom:25px;
 }
 
-.btn{
+button{
     background:#ff9800;
     color:white;
     border:none;
@@ -72,7 +72,7 @@ nav a:hover{
     align-items: center;
 }
 
-.btn:hover{
+button:hover{
     background:#f57c00;
     transform:scale(1.05);
     text-align: center;
@@ -142,8 +142,5 @@ h1{
     text-align: center;
 }
 .hero-image{
-    text-align: center;
-}
-button-countainer{
     text-align: center;
 }
