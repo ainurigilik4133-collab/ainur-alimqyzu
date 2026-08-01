@@ -60,16 +60,21 @@ nav a:hover{
 
 button{
     background:#ff9800;
-    color:white;
+    color:#fff;
     border:none;
-    padding:15px 30px;
+    padding:15px 35px;
     border-radius:30px;
+    font-size:22px;
     cursor:pointer;
-    font-size:18px;
     transition:.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    display:block;
+    margin:30px auto;
+}
+
+button:hover{
+    background:#f57c00;
+    transform:scale(1.05);
 }
 
 button:hover{
