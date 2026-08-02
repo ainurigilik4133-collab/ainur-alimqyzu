@@ -58,29 +58,22 @@ nav a:hover{
     margin-bottom:25px;
 }
 
-button{
+.whatsapp-btn{
+    display:inline-block;
     background:#ff9800;
     color:#fff;
-    border:none;
+    text-decoration:none;
     padding:15px 35px;
     border-radius:30px;
     font-size:22px;
     cursor:pointer;
     transition:.3s;
-
-    display:block;
     margin:30px auto;
 }
 
-button:hover{
+.whatsapp-btn:hover{
     background:#f57c00;
     transform:scale(1.05);
-}
-
-button:hover{
-    background:#f57c00;
-    transform:scale(1.05);
-    text-align: center;
 }
 
 .hero-image img{
@@ -115,10 +108,15 @@ section h2{
     text-align:center;
     box-shadow:0 5px 15px rgba(0,0,0,.1);
     transition:.3s;
+    text-decoration:none;
+    color:#333;
+    cursor:pointer;
 }
 
 .card:hover{
     transform:translateY(-10px);
+    background:#1e88e5;
+    color:white;
 }
 
 #contact{
@@ -132,29 +130,36 @@ footer{
     padding:20px;
 }
 
-@media(max-width:768px)
+@media(max-width:768px){
 
-nav{
-    margin-top: 15px;
-}
-.oppo{
-    text-align: center;
-}
-h1{
-    text-align: center;
-}
-.hero-text p{
-    text-align: center;
-}
-.hero-image{
-    text-align: center;
-}
-.oppo p{
-    font-size: 30px;
+    nav{
+        margin-top:15px;
+    }
+
+    .oppo{
+        text-align:center;
+    }
+
+    h1{
+        text-align:center;
+    }
+
+    .hero-text p{
+        text-align:center;
+    }
+
+    .hero-image{
+        text-align:center;
+    }
+
+    .oppo p{
+        font-size:30px;
+    }
+
 }
 button-coutainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 }
