@@ -16,7 +16,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 10%;
+    padding:15px 10%;
     flex-direction:column;
 }
 
@@ -84,7 +84,7 @@ nav a:hover{
 }
 
 section{
-    padding:70px 10%;
+    padding:40px 10%;
 }
 
 section h2{
@@ -104,15 +104,16 @@ section h2{
 
 .card{
     background: #fff;
-    width: 300px;
-    padding: 30px 20px;
     border-radius: 20px;
     text-align: center;
     text-decoration: none;
     color: #333;
     box-shadow: 0 8px 20px rgba(0,0,0,.1);
     transition: .3s;
+    width:320px;
+    padding:35px 25px;
 }
+
 
 .card:hover{
     transform: translateY(-10px);
@@ -188,6 +189,13 @@ button-container{
 .wa-menu a:hover{
     background:#1EBE5D;
 }
-.oppo p{
-    text-align: center;
+.oppo{
+    text-align:center;
+}
+.card h3{
+    font-size:34px;
+    margin-bottom:15px;
+}
+.card p{
+    font-size:22px;
 }
