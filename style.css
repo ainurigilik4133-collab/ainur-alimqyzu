@@ -155,8 +155,8 @@ footer{
     }
 
     .oppo p{
+        font-size:30px;
         text-align: center;
-        font-size:60px
     }
 
 }
@@ -187,4 +187,7 @@ button-container{
 
 .wa-menu a:hover{
     background:#1EBE5D;
+}
+.oppo p{
+    text-align: center;
 }
