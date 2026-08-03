@@ -20,9 +20,25 @@
     <div class="hero-text">
         <h1>Ағылшын тілін оңай үйреніңіз!</h1>
         <p>Балалар мен ересектерге арналған қызықты сабақтар.</p>
-        <a href="https://wa.me/77011084704?text=Сәлеметсіз%20бе!%20Мен%20ағылшын%20курсына%20жазылғым%20келеді." class="whatsapp-btn">
+        <button class="whatsapp-btn" onclick="toggleMenu()">
     Ақылы сабаққа жазылу
-</a>
+</button>
+
+<div id="waMenu" class="wa-menu">
+
+    <a href="https://wa.me/77011084704?text=Сәлеметсіз бе! Мен бірінші курсқа жазылғым келеді." target="_blank">
+        📘 Бірінші курсқа жазылғым келеді
+    </a>
+
+    <a href="https://wa.me/77011084704?text=Сәлеметсіз бе! Курс ақысы қанша?" target="_blank">
+        💰 Курс ақысы қанша?
+    </a>
+
+    <a href="https://wa.me/77011084704?text=Сәлеметсіз бе! Курс мерзімі неше ай?" target="_blank">
+        📅 Курс мерзімі неше ай?
+    </a>
+
+</div>
     </div>
 
     <div class="hero-image">
@@ -63,6 +79,16 @@
     <p>© 2026 English Academy</p>
     <p>Байланыс нөмірі 8 701 108 4704</p>
 </footer>
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("waMenu");
 
+    if(menu.style.display === "block"){
+        menu.style.display = "none";
+    }else{
+        menu.style.display = "block";
+    }
+}
+</script>
 </body>
 </html>
