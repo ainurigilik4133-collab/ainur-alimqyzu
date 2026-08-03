@@ -157,9 +157,31 @@ footer{
     }
 
 }
-button-coutainer{
+button-container{
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
+}
+.wa-menu{
+    display:none;
+    margin-top:20px;
+    text-align:center;
+}
+
+.wa-menu a{
+    display:block;
+    width:320px;
+    margin:10px auto;
+    padding:15px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.wa-menu a:hover{
+    background:#1EBE5D;
 }
